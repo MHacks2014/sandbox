@@ -23,6 +23,8 @@
 		1DCF9C4D19BACEA5003A342D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF9C4B19BACEA5003A342D /* InfoPlist.strings */; };
 		1DCF9C4F19BACEA5003A342D /* hitMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9C4E19BACEA5003A342D /* hitMeTests.m */; };
 		1DCF9C5A19BADBAF003A342D /* hitMeActivitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9C5919BADBAF003A342D /* hitMeActivitiesTableViewController.m */; };
+		1DCF9CA419BB6C52003A342D /* ActivityDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9CA319BB6C52003A342D /* ActivityDetailTableViewController.m */; };
+		1DCF9CA719BB6C70003A342D /* editActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9CA619BB6C70003A342D /* editActivityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		1DCF9C4E19BACEA5003A342D /* hitMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hitMeTests.m; sourceTree = "<group>"; };
 		1DCF9C5819BADBAF003A342D /* hitMeActivitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hitMeActivitiesTableViewController.h; sourceTree = "<group>"; };
 		1DCF9C5919BADBAF003A342D /* hitMeActivitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hitMeActivitiesTableViewController.m; sourceTree = "<group>"; };
+		1DCF9CA219BB6C52003A342D /* ActivityDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailTableViewController.h; sourceTree = "<group>"; };
+		1DCF9CA319BB6C52003A342D /* ActivityDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailTableViewController.m; sourceTree = "<group>"; };
+		1DCF9CA519BB6C70003A342D /* editActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editActivityViewController.h; sourceTree = "<group>"; };
+		1DCF9CA619BB6C70003A342D /* editActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editActivityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				1DCF9C3219BACEA5003A342D /* Main.storyboard */,
+				1DCF9CA219BB6C52003A342D /* ActivityDetailTableViewController.h */,
+				1DCF9CA319BB6C52003A342D /* ActivityDetailTableViewController.m */,
+				1DCF9CA519BB6C70003A342D /* editActivityViewController.h */,
+				1DCF9CA619BB6C70003A342D /* editActivityViewController.m */,
 				1DCF9C5819BADBAF003A342D /* hitMeActivitiesTableViewController.h */,
 				1DCF9C5919BADBAF003A342D /* hitMeActivitiesTableViewController.m */,
 				1DCF9C3519BACEA5003A342D /* hitMeMasterViewController.h */,
@@ -261,8 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DCF9C3119BACEA5003A342D /* hitMeAppDelegate.m in Sources */,
+				1DCF9CA719BB6C70003A342D /* editActivityViewController.m in Sources */,
 				1DCF9C3719BACEA5003A342D /* hitMeMasterViewController.m in Sources */,
 				1DCF9C5A19BADBAF003A342D /* hitMeActivitiesTableViewController.m in Sources */,
+				1DCF9CA419BB6C52003A342D /* ActivityDetailTableViewController.m in Sources */,
 				1DCF9C2D19BACEA5003A342D /* main.m in Sources */,
 				1DCF9C3A19BACEA5003A342D /* hitMeDetailViewController.m in Sources */,
 			);
@@ -469,6 +481,7 @@
 				1DCF9C5419BACEA5003A342D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DCF9C5519BACEA5003A342D /* Build configuration list for PBXNativeTarget "hitMeTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +490,7 @@
 				1DCF9C5719BACEA5003A342D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

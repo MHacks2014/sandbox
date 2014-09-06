@@ -1,5 +1,5 @@
 //
-//  hitMeActivitiesTableViewController.h
+//  ActivityDetailTableViewController.h
 //  hitMe
 //
 //  Created by Pinak Shikhare on 9/6/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface hitMeActivitiesTableViewController : UITableViewController
-
-
+@interface ActivityDetailTableViewController : UITableViewController
 
 @end
