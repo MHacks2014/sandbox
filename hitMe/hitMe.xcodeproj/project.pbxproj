@@ -25,6 +25,8 @@
 		1DCF9C5A19BADBAF003A342D /* hitMeActivitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9C5919BADBAF003A342D /* hitMeActivitiesTableViewController.m */; };
 		1DCF9CA419BB6C52003A342D /* ActivityDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9CA319BB6C52003A342D /* ActivityDetailTableViewController.m */; };
 		1DCF9CA719BB6C70003A342D /* editActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9CA619BB6C70003A342D /* editActivityViewController.m */; };
+		1DCF9CAA19BB7ED1003A342D /* event.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9CA919BB7ED1003A342D /* event.m */; };
+		1DCF9CAD19BB7EE0003A342D /* activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9CAC19BB7EE0003A342D /* activity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		1DCF9CA319BB6C52003A342D /* ActivityDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailTableViewController.m; sourceTree = "<group>"; };
 		1DCF9CA519BB6C70003A342D /* editActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editActivityViewController.h; sourceTree = "<group>"; };
 		1DCF9CA619BB6C70003A342D /* editActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editActivityViewController.m; sourceTree = "<group>"; };
+		1DCF9CA819BB7ED1003A342D /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		1DCF9CA919BB7ED1003A342D /* event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = event.m; sourceTree = "<group>"; };
+		1DCF9CAB19BB7EE0003A342D /* activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = activity.h; sourceTree = "<group>"; };
+		1DCF9CAC19BB7EE0003A342D /* activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = activity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,10 @@
 				1DCF9CA619BB6C70003A342D /* editActivityViewController.m */,
 				1DCF9C5819BADBAF003A342D /* hitMeActivitiesTableViewController.h */,
 				1DCF9C5919BADBAF003A342D /* hitMeActivitiesTableViewController.m */,
+				1DCF9CA819BB7ED1003A342D /* event.h */,
+				1DCF9CA919BB7ED1003A342D /* event.m */,
+				1DCF9CAB19BB7EE0003A342D /* activity.h */,
+				1DCF9CAC19BB7EE0003A342D /* activity.m */,
 				1DCF9C3519BACEA5003A342D /* hitMeMasterViewController.h */,
 				1DCF9C3619BACEA5003A342D /* hitMeMasterViewController.m */,
 				1DCF9C3819BACEA5003A342D /* hitMeDetailViewController.h */,
@@ -271,9 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DCF9C3119BACEA5003A342D /* hitMeAppDelegate.m in Sources */,
+				1DCF9CAD19BB7EE0003A342D /* activity.m in Sources */,
 				1DCF9CA719BB6C70003A342D /* editActivityViewController.m in Sources */,
 				1DCF9C3719BACEA5003A342D /* hitMeMasterViewController.m in Sources */,
 				1DCF9C5A19BADBAF003A342D /* hitMeActivitiesTableViewController.m in Sources */,
+				1DCF9CAA19BB7ED1003A342D /* event.m in Sources */,
 				1DCF9CA419BB6C52003A342D /* ActivityDetailTableViewController.m in Sources */,
 				1DCF9C2D19BACEA5003A342D /* main.m in Sources */,
 				1DCF9C3A19BACEA5003A342D /* hitMeDetailViewController.m in Sources */,
