@@ -25,6 +25,8 @@
 		1DCF9C5A19BADBAF003A342D /* hitMeActivitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9C5919BADBAF003A342D /* hitMeActivitiesTableViewController.m */; };
 		1DCF9CA419BB6C52003A342D /* ActivityDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9CA319BB6C52003A342D /* ActivityDetailTableViewController.m */; };
 		1DCF9CA719BB6C70003A342D /* editActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF9CA619BB6C70003A342D /* editActivityViewController.m */; };
+		5A63A64A19BBB28D00C74605 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A63A64919BBB28D00C74605 /* Parse.framework */; };
+		5A63A64C19BBB2A000C74605 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A63A64B19BBB2A000C74605 /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		1DCF9CA319BB6C52003A342D /* ActivityDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailTableViewController.m; sourceTree = "<group>"; };
 		1DCF9CA519BB6C70003A342D /* editActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editActivityViewController.h; sourceTree = "<group>"; };
 		1DCF9CA619BB6C70003A342D /* editActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editActivityViewController.m; sourceTree = "<group>"; };
+		5A63A64919BBB28D00C74605 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		5A63A64B19BBB2A000C74605 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A63A64C19BBB2A000C74605 /* Bolts.framework in Frameworks */,
 				1DCF9C2319BACEA5003A342D /* CoreGraphics.framework in Frameworks */,
 				1DCF9C2519BACEA5003A342D /* UIKit.framework in Frameworks */,
+				5A63A64A19BBB28D00C74605 /* Parse.framework in Frameworks */,
 				1DCF9C2119BACEA5003A342D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +119,8 @@
 		1DCF9C1F19BACEA5003A342D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A63A64B19BBB2A000C74605 /* Bolts.framework */,
+				5A63A64919BBB28D00C74605 /* Parse.framework */,
 				1DCF9C2019BACEA5003A342D /* Foundation.framework */,
 				1DCF9C2219BACEA5003A342D /* CoreGraphics.framework */,
 				1DCF9C2419BACEA5003A342D /* UIKit.framework */,
@@ -401,6 +409,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hitMe/hitMe-Prefix.pch";
 				INFOPLIST_FILE = "hitMe/hitMe-Info.plist";
@@ -414,6 +426,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hitMe/hitMe-Prefix.pch";
 				INFOPLIST_FILE = "hitMe/hitMe-Info.plist";
